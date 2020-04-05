@@ -16,13 +16,9 @@ import org.slf4j.LoggerFactory;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 import static java.util.concurrent.TimeUnit.SECONDS;
 
-/**
- * Hello world!
- *
- */
-public class App 
+public class DropwizardReporters
 {
-    private static Logger LOGGER = LoggerFactory.getLogger(App.class);
+    private static Logger LOGGER = LoggerFactory.getLogger(DropwizardReporters.class);
 
     @SneakyThrows
     public static void main( String[] args )
